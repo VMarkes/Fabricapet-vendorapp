@@ -53,5 +53,5 @@ Se você deseja contribuir para este projeto, siga as etapas abaixo:
 4. Envie as suas alterações: git push origin minha-feature.
 5. Envie um Pull Request.
 
-Contato
+## Contato
 Se tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo pelo e-mail vinicius.messias.marques@gmail.com.

@@ -10,8 +10,8 @@ Este é o repositório oficial do Fabricapet Vendor App, um aplicativo que permi
 <p>• Veja o histórico de vendas e o desempenho da sua loja.</p>
 
 ## Pré-requisitos
-<p>• Node.js instalado</p>
-<p>• NPM ou Yarn instalado</p>
+<p>• <a href="https://nodejs.org/en">Node.js</a> instalado</p>
+<p>• <a href="https://www.npmjs.com/">NPM</a> ou <a href="https://yarnpkg.com/">Yarn</a> instalado</p>
 
 ## Instalação
 ### 1. Clone este repositório:

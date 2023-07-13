@@ -1,0 +1,79 @@
+.cadastro {
+  margin-bottom: 50px;
+}
+
+.adress-form,
+.adress-form-end {
+    width: 100%;
+    float: left;
+}
+
+.adress-form ul,
+.adress-form-end ul {
+  width: 90%;
+}
+
+.adress-form li,
+.adress-form-end li {
+    list-style: none;
+}
+
+.adress-form input,
+.adress-form-end input {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+}
+
+.adress-form input:focus,
+.adress-form-end input:focus {
+    border-bottom: 2px solid #1e9ac7;
+}
+
+.adress-form label,
+.adress-form-end label {
+    display: flex;
+    position: relative;
+    pointer-events: none;
+    left: 10px;
+    margin-top: 13px;
+}
+
+.adress button {
+    display: flex;
+    width: 50%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px auto;
+    border: none;
+    background-color: #1e9ac7;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.adress button:hover {
+    color: #1e9ac7;
+    background-color: white;
+    border: 1px solid #1e9ac7;
+}
+
+@media (max-width: 600px) {
+    .adress-form,
+    .adress-form-end {
+        padding: 10px;
+    }
+
+    .adress-form ul,
+    .adress-form-end ul {
+        padding: 0px;
+    }
+}

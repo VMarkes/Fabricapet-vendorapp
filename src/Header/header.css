@@ -1,0 +1,95 @@
+.cont {
+  margin-top: 0;
+  margin-left: 105px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  align-items: end;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.cartIcon {
+  color: white;
+}
+
+.count a {
+  display: flex;
+  justify-content: center;
+}
+
+.header-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+.header-img {
+    height: 50%;
+    width: auto;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.nav-elements .AppBar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menuItem {
+  text-decoration: none;
+  color: #1e9ac7;
+}
+
+.btn-logout {
+  background-color: #1e9ac7;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.btn-logout:hover {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #1e9ac7;
+  color: #1e9ac7;
+}
+  
+  @media (max-width: 600px) {
+    .navbar {
+      position: fixed;
+      z-index: 9;
+    }
+
+    .header-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
+    }
+
+    .header-img {
+      height: 65%;
+      margin-left: 20px;
+    }
+
+    .menu-icon-img {
+      width: 25px;
+      height: auto;
+    }
+  }

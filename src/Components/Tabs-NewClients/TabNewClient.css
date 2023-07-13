@@ -1,0 +1,39 @@
+.Tabs {
+  margin: 0px auto;
+  height: auto;
+  color: black;
+  border-radius: 2rem;
+}
+
+ul.nav {
+  margin-left: 0px;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-bottom: 1px solid #39a2db;
+}
+
+ul.nav li {
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+ul.nav li:hover {
+  background: #39a2db;
+  color: white;
+}
+
+ul.nav li.active {
+  background: #39a2db;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  
+}

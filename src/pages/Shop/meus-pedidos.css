@@ -1,0 +1,86 @@
+.orders {
+    padding: 20px;
+}
+
+.myOrders {
+    margin-top: 100px;
+}
+
+.header-order b {
+    display: flex;
+    justify-content: space-between;
+    width: 72%;
+    margin-left: 28%;
+}
+
+.prevCarrinho {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px #888888;
+}
+
+.prevCarrinho h2 {
+    margin-top: 10px;
+    float: left;
+}
+
+.prevCarrinho .grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rmvBtn {
+    height: 25px;
+}
+
+.sendOrder {
+    width: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px auto;
+    margin-top: 10px;
+    border: none;
+    background-color: #1e9ac7;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.sendOrder:hover {
+    color: #1e9ac7;
+    background-color: white;
+    border: 1px solid #1e9ac7;
+}
+
+@media (max-width: 600px) {
+    .myOrders {
+        margin-top: 50px;
+    }
+
+    .myOrders h1 {
+        margin: 0;
+    }
+
+    .header-order b {
+        display: flex;
+        flex-wrap: wrap;
+        visibility: hidden;
+        height: 10px;
+    }
+
+    .prevCarrinho {
+        margin-top: 20px;
+    }
+
+    .prevCarrinho .grid {
+        display: flex;
+    }
+
+    .grid h2 {
+        font-size: 18px;
+    }
+}

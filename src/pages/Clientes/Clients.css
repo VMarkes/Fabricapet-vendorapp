@@ -1,0 +1,22 @@
+.client {
+    padding: 20px;
+}
+
+.client-content {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.clients {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px #888888;
+}
+
+.clients .grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

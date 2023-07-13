@@ -1,0 +1,245 @@
+.cart {
+    padding: 20px;
+}
+
+.cart h1 {
+    margin-top: 80px;
+}
+
+.cart-items {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    float: left;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.cart-items-p {
+    display: contents;
+}
+
+.img-product {
+    width: 100px;
+}
+
+.rmvBtn {
+    background-color: #FF6347;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+hr {
+    margin: 20px 20px;
+    border-top: 1px solid #ddd;
+}
+
+.separador-mobile {
+    visibility: hidden;      
+}
+
+.finalizar-carrinho {
+    width: 100%;
+    display: flex;
+}
+
+.carrinho-total {
+    width: 40%;
+    margin-left: 40px;
+}
+
+.discount {
+    margin-left: 50px;
+}
+
+.input-discount {
+    border: none;
+    border-bottom: 1px solid #1e9ac7;
+    text-align: center;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.busca-cliente {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart .busca-cliente-form {
+    margin-top: 0;
+}
+
+.clientes {
+    width: 100%;
+}
+
+.btns {
+    width: 100%;
+    height: auto;
+}
+
+.btn-payment {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.btn-payment span {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.gerarPedido {
+    width: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px auto;
+    margin-top: 10px;
+    border: none;
+    background-color: #1e9ac7;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.gerarPedido:hover {
+    color: #1e9ac7;
+    background-color: white;
+    border: 1px solid #1e9ac7;
+}
+
+@media (max-width: 600px) {
+    .cart {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cart .hr1 {
+        visibility: hidden;
+    }
+
+    .cart-items {
+        padding: 10px;
+        border: none;
+        flex-wrap: wrap;
+        box-shadow: 5px 8px 15px #888888;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+
+    .cart-items-p {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .cart-items-p p {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .separador-mobile {
+        margin-top: -10px;        
+    }
+
+    .carrinho-total {
+        float: left;
+        width: 100%;
+        margin: 0;
+    }
+
+    .carrinho-total p {
+        margin: 0;
+    }
+
+    .finalizar-carrinho {
+        display: block;
+    }
+
+    .finalizar-carrinho hr {
+        visibility: hidden;
+        margin-left: -20px;
+    }
+
+    .discount {
+        margin: 0;
+    }
+
+    .discount form {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .discount form input {
+        margin-left: 10px;
+    }
+
+    .discount form button {
+        margin: 0;
+    }
+
+    .btn-discount {
+        margin-top: 20px;
+    }
+
+    .addClient {
+        margin-left: 10px;
+    }
+
+    .modal-button-client {
+        height: 30px;
+    }
+
+    .busca-cliente {
+        width: 100%;
+    }
+
+    .busca-cliente h2{
+        font-size: 22px;
+    }
+
+    .busca-cliente-form {
+        display: block;
+    }
+
+    .busca-cliente-form tr td {
+        margin-top: 15px;
+    }
+
+    .clientes {
+        width: 100%;
+    }
+
+    .clientes input {
+        width: 70%;
+    }
+
+    .gerarPDF {
+        margin-bottom: 10px;
+    }
+
+    .btns {
+        margin-top: 20px;
+    }
+
+    .btn-payment {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .btn-payment span {
+        width: 100%;
+    }
+}

@@ -2,16 +2,16 @@
 Este é o repositório oficial do Fabricapet Vendor App, um aplicativo que permite que vendedores gerenciem suas lojas e produtos no mercado online Fabricapet.
 
 ## Funcionalidades
-• Faça login na sua conta de vendedor para acessar o painel de controle.
-• Gerencie informações da loja, como nome, descrição, endereço e horário de funcionamento.
-• Adicione, edite ou remova produtos da sua loja.
-• Atualize os estoques e preços dos produtos.
-• Receba notificações de pedidos e gerencie-os.
-• Veja o histórico de vendas e o desempenho da sua loja.
+<p>• Faça login na sua conta de vendedor para acessar o painel de controle.</p>
+<p>• Gerencie informações da loja, como nome, descrição, endereço e horário de funcionamento.</p>
+<p>• Adicione, edite ou remova produtos da sua loja.</p>
+<p>• Atualize os estoques e preços dos produtos.</p>
+<p>• Receba notificações de pedidos e gerencie-os.</p>
+<p>• Veja o histórico de vendas e o desempenho da sua loja.</p>
 
 ## Pré-requisitos
-• Node.js instalado
-• NPM ou Yarn instalado
+<p>• Node.js instalado</p>
+<p>• NPM ou Yarn instalado</p>
 
 ## Instalação
 ### 1. Clone este repositório:

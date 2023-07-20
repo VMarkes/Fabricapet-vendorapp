@@ -1,5 +1,5 @@
 # Fabricapet Vendor App
-Este é o repositório oficial do Fabricapet Vendor App, um aplicativo que permite que vendedores gerenciem suas lojas e produtos no mercado online Fabricapet.
+Este é o repositório oficial do Fabricapet Vendor App, um aplicativo que permite que vendedores da Fábrica Pet® gerenciem seus pedidos e clientes online.
 
 ## Funcionalidades
 <p>• Faça login na sua conta de vendedor para acessar o painel de controle.</p>
